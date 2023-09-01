@@ -1,0 +1,11 @@
+{
+  "name"      : "Yadhir Teoba",
+  "email"     : "yadhirTV@gmail.com",
+  "cel"       : "(229) 968 5317",
+  "location"  : "Orizaba, Ver.",
+  "title"     : "Tecnico en Programacion",
+  "social": {
+    "face": "^2.8.5",
+    "x": "^4.18.2"
+  }
+}
