@@ -2,9 +2,9 @@
   "name"        : "Yadhir Teoba",
   "email"       : "yadhirTV@gmail.com",
   "aspirations" : "Poder trabajar y serle de ayuda a la empresa",
-  "title"       : "Tecnico en Programacion",
-  "photo"       : "",
-  "cel"         : "(229) 968 5317",
+  "titles"       : "Tecnico en Programacion",
+  "photo"       : "https://firebasestorage.googleapis.com/v0/b/mycv-s21004499.appspot.com/o/MyPhoto.jpeg?alt=media&token=c340f746-2172-457c-97df-6b6d95d9f0cb",
   "location"    : "Orizaba, Ver.",
-  "social"      : "@yodoeaoffi06"
+  "social"      : "@yodoeaoffi06",
+  "cel"         : "(229) 968 5317"
 }
