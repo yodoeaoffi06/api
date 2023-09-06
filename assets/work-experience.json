@@ -1,0 +1,21 @@
+[
+    {
+        "puesto": "fake cargo 1",
+        "empresa": "fake empresa 1",
+        "fecha_ini": "fake fecha ini",
+        "fecha_fin": "fake fecha fin",
+        "ciudad": "fake ciudad 1",
+        "pais": "fake pais 1",
+        "logros": [
+            {
+                "logro": "fake logro 1"
+            },
+            {
+                "logro": "fake logro 2"
+            },
+            {
+                "logro": "fake logro 3"
+            }
+        ]
+    }
+]
