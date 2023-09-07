@@ -1,20 +1,20 @@
 
     {
-        "puesto": "fake cargo 1",
-        "empresa": "fake empresa 1",
-        "fecha_ini": "fake fecha ini",
-        "fecha_fin": "fake fecha fin",
-        "ciudad": "fake ciudad 1",
-        "pais": "fake pais 1",
+        "puesto": "Programador",
+        "empresa": "Google",
+        "fecha_ini": "01/2018",
+        "fecha_fin": "Presente",
+        "ciudad": "Orizaba",
+        "pais": "Veracruz",
         "logros": [
             {
-                "logro": "fake logro 1"
+                "logro": "Desarrollar API's"
             },
             {
-                "logro": "fake logro 2"
+                "logro": "Innumerables proyectos concluidos"
             },
             {
-                "logro": "fake logro 3"
+                "logro": "Culminación de un proyecto gubernamental."
             }
         ]
     }
