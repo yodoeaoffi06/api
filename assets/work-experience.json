@@ -1,4 +1,4 @@
-
+[
     {
         "puesto": "Programador",
         "empresa": "Google",
@@ -17,4 +17,24 @@
                 "logro": "Culminación de un proyecto gubernamental."
             }
         ]
+    },
+    {
+        "puesto": "Programador",
+        "empresa": "Amazoon",
+        "fecha_ini": "01/2016",
+        "fecha_fin": "05/2017",
+        "ciudad": "Veracruz",
+        "pais": "Veracruz",
+        "logros": [
+            {
+                "logro": "Desarrollar API's"
+            },
+            {
+                "logro": "Innumerables proyectos concluidos."
+            },
+            {
+                "logro": "Culminación de un proyecto gubernamental."
+            }
+        ]
     }
+]
