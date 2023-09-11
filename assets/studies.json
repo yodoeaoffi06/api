@@ -1,0 +1,16 @@
+[
+    {
+    "estudio": "Estudios en Nivel Medio Superior",
+    "titulo": "Técnico en Programación",
+    "institucion": "CBTIS 79° 'Maria Soto Lamarina'",
+    "año_inicio": "2019",
+    "año_final": "2021"
+    },
+    {
+    "estudio": "Estudios en Nivel Superior",
+    "título": "Lic. En Ingeniería de Software",
+    "institucion": "Universidad Veracruzana",
+    "año_inicio": "2019",
+    "año_final": "2021"
+    }
+    ]
