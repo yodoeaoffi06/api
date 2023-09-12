@@ -21,8 +21,8 @@ app.get('/work-experience', (req, res, next) => {
 	res.sendfile("assets/work-experience.json");
 });
 
-app.get('/studies', (req, res, next) => {
-	res.sendfile("assets/studies.json");
+app.get('/certifications', (req, res, next) => {
+	res.sendfile("assets/certifications.json");
 });
 
 app.listen(port,  () => 
