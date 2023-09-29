@@ -2,21 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {model_name}-deployment
+  name: api2023-deployment
 spec:
   selector:
     matchLabels:
-      app: {model_name}-server
-  replicas: 1
+      app: api2023-server
+  replicas: 3
   template:
     metadata:
       labels:
-        app: {model_name}-server
+        app: api2023-server
     spec:
       containers:
-      - name: {model_name}-container
+      - name: api2023-container
         #image: gcr.io/tensorflow-serving/resnet 
-        image: docker.io/{docker_user}/{model_name}:{github.sha}
+        image: docker.io/yodoeaoffi06/node-api2023:latest
+        imagePullPolicy: Never
         ports:
         - containerPort: 8080
 ---
@@ -24,12 +25,12 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    run: {model_name}-service
-  name: {model_name}-service
+    run: api2023-service
+  name: api2023-service
 spec:
   ports:
   - port: 8080
     targetPort: 8080
   selector:
-    app: {model_name}-server
+    app: api2023-server
   type: LoadBalancer
