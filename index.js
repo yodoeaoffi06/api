@@ -33,6 +33,14 @@ app.get('/interests', (req, res, next) => {
 	res.sendfile("assets/interests.json");
 });
 
+app.get('/size', (req, res, next) => {
+	res.sendfile("assets/proxy-size.json");
+});
+
+app.get('/hours', (req, res, next) => {
+	res.sendfile("assets/dev-hours.json");
+});
+
 app.listen(port,  () => 
 	console.log('listening on port ' + port
 ));
